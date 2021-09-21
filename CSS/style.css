@@ -1,0 +1,241 @@
+body {
+  background-image: url("../Imagenes/Wallpaper\ 1.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0px 200px 0px 200px;
+  padding: 0px 200px 0px 200px;
+}
+.log {
+  display: inline-flex;
+  text-align: left;
+}
+
+.log12 {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+nav {
+  background-color: #1f1e1e83;
+  padding: 0px 60px 20px 0px;
+  margin: 0 20px 20px 20px;
+}
+.navegacion1 {
+  margin: 0px 0px 0px 280px;
+}
+
+.barradenavegacion {
+  list-style: none;
+
+  margin: 0;
+}
+.barradenavegacion .navegacion {
+  display: inline-flex;
+}
+.navegacion :hover {
+  background: #840b0b8e;
+  color: black;
+  border-radius: 100%;
+}
+.barradenavegacion .navegacion a {
+  text-decoration: none;
+  color: aliceblue;
+  text-shadow: 0px 0px 10px #fff;
+  padding: 20px;
+  display: block;
+  font-size: 30px;
+  font-weight: 200;
+}
+.parallax {
+  background-image: url(../Imagenes/Wallpaper\ 2.gif);
+  min-height: 400px;
+  /* min-width: 400px; */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.tituloparallax h2 {
+  font-size: 30px;
+  color: aliceblue;
+  font-weight: 700;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-shadow: 3px 3px 0px rgba(0, 0, 11, 1);
+  text-shadow: 0px 0px 10px #fff;
+}
+.parrafoparallax {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-shadow: 3px 3px 0px rgba(0, 0, 11, 1);
+  font-size: 20px;
+  color: aliceblue;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid antiquewhite;
+  text-shadow: 0px 0px 10px #fff;
+}
+.parrafoparallax:hover {
+  background-color: #840b0b8e;
+  opacity: 3;
+}
+.parrafoparallax a {
+  font-size: 20px;
+  color: aliceblue;
+  font-weight: 700;
+  padding: 10px 10px;
+  text-decoration: double;
+  margin: 0;
+}
+
+.cuerposcelestes {
+  background-color: #1f1e1e83;
+  margin: 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.cuerposcelestes1 {
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+}
+.cuerposcelestes1:hover {
+  -webkit-transform: rotatex(360deg);
+  transition: 0.8s ease-in-out;
+} 
+.definicion {
+  color: aliceblue;
+  font-weight: 400;
+  margin: 10px 10px 10px 10px;
+  display: inline-flex;
+}
+.definicion p {
+  color: aliceblue;
+  font-weight: 400;
+  margin: 10px 10px 10px 10px;
+  display: inline-flex;
+}
+.gallery {
+  text-align: center;
+  color: #fff;
+  margin: auto;
+}
+.titulo2 {
+  margin-top: 10px;
+  color: #fff;
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.galleryimg2 {
+  width: 300px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  border-radius: 50%;
+}
+.galleryimg {
+  width: 300px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  border-radius: 50%;
+}
+.textogeneral1 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  height: 500px;
+}
+.texto3 p {
+  margin: 0 auto;
+  color: aliceblue;
+  text-align: center;
+  padding: 20px 70px;
+}
+.textogeneral2 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  height: 500px;
+}
+.texto4 p {
+  margin: 0 auto;
+  color: aliceblue;
+  text-align: center;
+  padding: 20px 70px;
+}
+.textogeneral1 .galleryimg:hover {
+  transform: translateY(-50px);
+  transition: all 0.25s;
+}
+.textogeneral2 .galleryimg2:hover {
+  transform: translateY(-50px);
+  transition: all 0.25s;
+}
+.video {
+  display: inline-block;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: inline;
+  padding: 0px 0px 0px 200px;
+  
+}
+.universovideo {
+  padding: 0px 100px 50px 100px;
+  background-color: black;
+  margin-bottom: 90px;
+}
+.titulo3 {
+  margin-top: 10px;
+  color: #fff;
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  background: #1f1e1e83;
+  padding: 10px 10px 10px 10px;
+}
+.tittle
+{
+  color: #fff;
+  margin: 20px 50px 60px 60px;
+  display: inline;
+  word-spacing: 350px;
+}
+
+.mapa {
+  padding: 50px 50px 50px 50px;
+  display: inline;
+  color: aliceblue;
+
+}
+.redes {
+  width: 50px;
+  height: 50px;
+  
+}
+.boton {
+  position: fixed;
+  margin: 300px 0px 60px 1050px;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+
+}
+
