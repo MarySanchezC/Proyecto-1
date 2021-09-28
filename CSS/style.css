@@ -129,7 +129,7 @@ text-align: center;
 .definicion p {
   color: aliceblue;
   font-weight: 400;
-  margin: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 9px;
   display: inline-flex;
 }
 .gallery {
