@@ -196,7 +196,7 @@ text-align: center;
   transition: all 0.25s;
 }
 .video {
-  display: inline-block;
+  display: inline-flex;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
@@ -213,7 +213,7 @@ text-align: center;
   margin-top: 10px;
   color: #fff;
   text-align: center;
-  display: block;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
 }
