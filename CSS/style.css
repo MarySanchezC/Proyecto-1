@@ -9,30 +9,35 @@ body {
 .log {
   display: inline-flex;
   text-align: left;
+  
 }
 
 .log12 {
   width: 100px;
   height: 100px;
   border-radius: 100%;
+  justify-content: space-between;
 }
 
 nav {
   background-color: #1f1e1e83;
   padding: 0px 60px 20px 0px;
   margin: 0 20px 20px 20px;
+  
+  
 }
 .navegacion1 {
-  margin: 0px 0px 0px 280px;
+  display: inline-flex;
+  margin: 0px 0px 0px 100%;
 }
 
 .barradenavegacion {
   list-style: none;
-
   margin: 0;
 }
 .barradenavegacion .navegacion {
   display: inline-flex;
+  
 }
 .navegacion :hover {
   background: #840b0b8e;
@@ -47,6 +52,8 @@ nav {
   display: block;
   font-size: 30px;
   font-weight: 200;
+  
+  
 }
 .parallax {
   background-image: url(../Imagenes/Wallpaper\ 2.gif);
@@ -122,6 +129,12 @@ nav {
   margin: 10px 10px 10px 10px;
   display: inline-flex;
 }
+
+.definicion h4 {
+text-align: center;
+
+}
+
 .gallery {
   text-align: center;
   color: #fff;
@@ -186,11 +199,11 @@ nav {
   transition: all 0.25s;
 }
 .video {
-  display: inline-block;
+  display: flex;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
-  display: inline;
+  
   padding: 0px 0px 0px 200px;
   
 }
@@ -229,13 +242,5 @@ nav {
   width: 50px;
   height: 50px;
   
-}
-.boton {
-  position: fixed;
-  margin: 300px 0px 60px 1050px;
-  width: 80px;
-  height: 80px;
-  border-radius: 100%;
-
 }
 
