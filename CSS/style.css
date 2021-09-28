@@ -96,10 +96,11 @@ nav {
 
 .cuerposcelestes {
   background-color: #1f1e1e83;
-  margin: 20px;
-  display: inline-flex;
+  margin: 10px 10px 10px 10px;  
+  display:flex;
   justify-content: center;
   align-items: center;
+  height: 220px;
 }
 .cuerposcelestes1 {
   border-radius: 100%;
@@ -113,9 +114,18 @@ nav {
 .definicion {
   color: aliceblue;
   font-weight: 400;
-  margin: 10px 10px 10px 10px;
+  margin: 10px 10px 60px 10px;
   display: inline-flex;
 }
+
+.text {
+width: 200px;
+height: 160px;
+align-items: center;
+text-align: center;
+
+}
+
 .definicion p {
   color: aliceblue;
   font-weight: 400;
