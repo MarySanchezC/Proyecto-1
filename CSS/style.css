@@ -9,30 +9,35 @@ body {
 .log {
   display: inline-flex;
   text-align: left;
+  
 }
 
 .log12 {
   width: 100px;
   height: 100px;
   border-radius: 100%;
+  justify-content: space-between;
 }
 
 nav {
   background-color: #1f1e1e83;
   padding: 0px 60px 20px 0px;
   margin: 0 20px 20px 20px;
+  
+  
 }
 .navegacion1 {
-  margin: 0px 0px 0px 280px;
+  display: inline-flex;
+  margin: 0px 0px 0px 50%;
 }
 
 .barradenavegacion {
   list-style: none;
-
   margin: 0;
 }
 .barradenavegacion .navegacion {
   display: inline-flex;
+  
 }
 .navegacion :hover {
   background: #840b0b8e;
@@ -47,6 +52,8 @@ nav {
   display: block;
   font-size: 30px;
   font-weight: 200;
+  
+  
 }
 .parallax {
   background-image: url(../Imagenes/Wallpaper\ 2.gif);
@@ -96,11 +103,10 @@ nav {
 
 .cuerposcelestes {
   background-color: #1f1e1e83;
-  margin: 10px 10px 10px 10px;  
-  display:flex;
+  margin: 20px;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
-  height: 220px;
 }
 .cuerposcelestes1 {
   border-radius: 100%;
@@ -114,24 +120,26 @@ nav {
 .definicion {
   color: aliceblue;
   font-weight: 400;
-  margin: 10px 10px 60px 10px;
+  margin: 10px 10px 10px 10px;
+  display: inline-flex;
+}
+.definicion p {
+  color: aliceblue;
+  font-weight: 400;
+  margin: 10px 10px 10px 10px;
   display: inline-flex;
 }
 
-.text {
-width: 200px;
-height: 160px;
-align-items: center;
+.definicion h4 {
+text-align: center;
+
+}
+.definicion .a {
 text-align: center;
 
 }
 
-.definicion p {
-  color: aliceblue;
-  font-weight: 400;
-  margin: 10px 10px 10px 9px;
-  display: inline-flex;
-}
+
 .gallery {
   text-align: center;
   color: #fff;
@@ -196,12 +204,12 @@ text-align: center;
   transition: all 0.25s;
 }
 .video {
-  display: inline-flex;
+  display: flex;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
-  display: inline;
-  padding: 0px 0px 0px 200px;
+  
+
   
 }
 .universovideo {
@@ -213,13 +221,14 @@ text-align: center;
   margin-top: 10px;
   color: #fff;
   text-align: center;
-  display: inline-flex;
+  display: block;
   justify-content: center;
   align-items: center;
 }
 .footer {
   background: #1f1e1e83;
   padding: 10px 10px 10px 10px;
+  justify-content: center;
 }
 .tittle
 {
@@ -240,12 +249,3 @@ text-align: center;
   height: 50px;
   
 }
-.boton {
-  position: fixed;
-  margin: 300px 0px 60px 1050px;
-  width: 80px;
-  height: 80px;
-  border-radius: 100%;
-
-}
-
